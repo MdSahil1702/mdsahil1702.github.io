@@ -211,7 +211,7 @@ document.title=(h==='home'?'':h[0].toUpperCase()+h.slice(1)+' · ')+'Md Sahil Si
 addEventListener('hashchange',show);show();
 $('#tools').innerHTML=['Python','scikit-learn','XGBoost','Pandas','TensorFlow','SQL','Docker','FastAPI','Streamlit','React'].map(t=>`<div>${t}</div>`).join('');
 /* work */
-const C={all:'All',ml:'Machine learning',web:'Full-stack',sys:'Systems and apps',lab:'Practice'};
+const C={all:'All',ml:'Machine learning',web:'Full-stack',sys:'Systems and apps',lab:'Python'};
 const P=[
 ['ml','Solar Power Prediction','Two-stage ML pipeline: stage 1 forecasts typical weather for 36 Indian states and UTs from 10 years of NASA POWER data; stage 2 predicts PV output for any date, tilt, orientation and panel count, with an hourly physics bridge to daily kWh. Chronological splits prevent leakage, and results are benchmarked against a seasonal baseline and checked against PVGIS. Streamlit app in progress.','Python · Random Forest · Gradient Boosting · XGBoost · Streamlit',G+'solar-Power-prediction'],
 ['ml','Instructor Effectiveness Modeling','Notebook that models instructor effectiveness on a 2,000-row dataset, built for the Accredian Data Science and AI internship assignment.','Python · Jupyter · scikit-learn',IA+'Accredian%20Data%20Science%20%26%20AI%20Content%20Specialist%20internship'],
